@@ -36,7 +36,7 @@
     - diferentes especies
       - repele das especies diferentes
 
-### Referencias na descrição
+#### Referencias da descrição
 
 - Slime pattern paper https://uwe-repository.worktribe.com/...​
 - Slime write-up and cool examples https://sagejenson.com/physarum​
@@ -150,4 +150,7 @@
   - criar novos workers
 - mywork.terminate
 
-## [to Build Tetris in React - GameDev Tutorial (with React Hooks!)](https://www.youtube.com/watch?v=ZGOaCxX8HIU)
+## [Using requestAnimationFrame with React Hooks ](https://css-tricks.com/using-requestanimationframe-with-react-hooks/)
+- use effect com 1 array na dependencia pra rodar soh no component did mount e unmount
+- passa o uma função no setState pra n ficar congelado com o estado q tava quando o effect rodou
+- usa o **useRef** pra ter um 'state' q n desencadeia um render quando muda
